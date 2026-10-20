@@ -119,7 +119,7 @@ export function MobileFilterByValue(props: { model: ByValuesModel }) {
                     onChange={(node) => model.onFilterCheckToggled(node as IFilterByValueWithTreeItem)}
                     defaultCache={model.treeMapCache}
                     itemHeight={48}
-                    treeNodeClassName="univer-h-full univer-pr-2 univer-text-base univer-text-gray-900 dark:!univer-text-gray-0"
+                    treeNodeClassName="univer-pr-2 univer-text-base univer-text-gray-900 dark:!univer-text-gray-0"
                     attachRender={(item) => (
                         <span className="univer-ml-auto univer-text-sm univer-text-gray-500">{`(${item.count})`}</span>
                     )}

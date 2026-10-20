@@ -131,7 +131,7 @@ export function FilterByValue(props: { model: ByValuesModel }) {
                         treeNodeClassName={`
                           univer-pr-2 univer-border-box univer-rounded-md
                           [&:hover_a]:univer-inline-block
-                          hover:univer-bg-gray-50 univer-h-full
+                          hover:univer-bg-gray-50
                           univer-text-gray-900 dark:hover:!univer-bg-gray-900
                           dark:!univer-text-gray-0
                         `}
